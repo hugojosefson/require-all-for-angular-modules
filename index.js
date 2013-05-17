@@ -1,9 +1,11 @@
 module.exports = requireAllForAngularModules;
 
 function requireAllForAngularModules() {
-  for (var moduleName in require.modules ) {
-    if (require.modules.hasOwnKey(moduleName)) {
-      if (/-for-angular$/.test(moduleName)) {
+  var require = window.require;
+  var modules = require.modules;
+  for (var moduleName in modules ) {
+    if (modules.hasOwnProperty(moduleName)) {
+      if (/-for-angular(\/index.js)?$/.test(moduleName)) {
         require(moduleName);
       }
     }
