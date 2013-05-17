@@ -2,7 +2,7 @@
   "name": "require-all-for-angular-modules",
   "repo": "hugojosefson/require-all-for-angular-modules",
   "description": "Requires all `*-for-angular` modules, so we know they have all registered themselves to angular.",
-  "version": "0.0.1",
+  "version": "0.0.2.snapshot",
   "keywords": ["require", "angular", "angularjs", "for-angular", "module", "modules"],
   "dependencies": {},
   "development": {},
