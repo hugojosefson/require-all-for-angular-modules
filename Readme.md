@@ -1,7 +1,7 @@
 
 # require-all-for-angular-modules
 
-  Requires all `*-for-angular` modules, so we know they have all registered themselves to angular.
+  Requires all `*-for-angular` modules, so we know they have all registered themselves to angular, without specifying each one separately.
 
   This is useful when you have a bunch of AngularJS modules which adhere to these rules:
 
